@@ -31,6 +31,6 @@ python classifier.py
 ```
 
 ## Results
-- For the TweepFake dataset, 78% accuracy was achieved by using the bag of words features into the logistic regression classifier. 
-- For the Custom Dataset, 100% accuracy was achieved by using the n-grams categorization algorithm into the random forest classifier which might be due to overfitting.
+- For the TweepFake dataset, <b>78% accuracy</b> was achieved by using the <b>bag of words</b> features into the <b>logistic regression classifier</b>. 
+- For the Custom Dataset, <b>100% accuracy</b> was achieved by using the <b>n-grams categorization</b> algorithm into the <b>random forest classifier</b> which might be due to <b>overfitting</b>.
  
