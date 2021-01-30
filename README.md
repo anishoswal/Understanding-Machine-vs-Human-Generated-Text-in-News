@@ -6,17 +6,17 @@ The average consumption of news from non-traditional sources such as social medi
 The problem statement of this research revolves around extracting statistical measures from the language distribution of large language models and incorporating them to build a classification model that classifies a given tweet as ‘human’ generated or ‘machine’ generated and maximizing its accuracy by performing hyper tuning on the parameters selected to build the detector model. The necessity of the system is to truncate the rapid dissemination of the falsified information that pose a threat to social media as a platform. In this project, we strive to utilize social media to classify the news content, particularly Twitter. The aim of the project is to explore and advocate on the selection of determinant statistical features that help detect/classify a news as either ‘human’ or ‘machine’ generated.
 
 ## Model Description
-The implementation involves tasks such as data preprocessing, feature extraction, training classification models etc. The architecture diagram of the implementation is provided below.
+The implementation involves tasks such as data preprocessing, feature extraction, training classification models etc. The architecture diagram of the implementation is provided below.<br>
 ![image](images/Picture1.png)
 
 ## Test Datasets
-1.	**[TweepFake Dataset](data)**
+1.	**[TweepFake Dataset](data)** <br>
 The primary dataset we used for the project was the provided TweepFake dataset which is a twitter deep fake dataset which is a collection of human and deep-fake messages. It contains a variety of different columns but the only columns that we were considering in this project were:
 -	Tweet text
 -	Category of the tweet (human/ machine)
 This dataset contained a total of 20926 equally categorized tweets in the training dataset and 2584 tweets in the test dataset.
 
-2.	**[Custom Dataset](customdata)**
+2.	**[Custom Dataset](customdata)**<br>
 The other dataset that we used was a custom dataset that we created. It was a combination of news articles by humans scraped from various news websites and machine generated news articles which were made using HuggingFace and DeepAI. This dataset was modified for it to only contain two columns:
 -	News text
 -	Category of the news (human/machine)
