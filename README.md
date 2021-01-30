@@ -29,7 +29,6 @@ This dataset contained a total of 198 equally categorized news articles in the t
 ```
 python classifier.py
 ```
-</br>
 
 ## Results
 - For the TweepFake dataset, <b>78% accuracy</b> was achieved by using the <b>bag of words</b> features into the <b>logistic regression classifier</b>. 
