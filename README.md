@@ -6,7 +6,7 @@ The average consumption of news from non-traditional sources such as social medi
 The problem statement of this research revolves around extracting statistical measures from the language distribution of large language models and incorporating them to build a classification model that classifies a given tweet as ‘human’ generated or ‘machine’ generated and maximizing its accuracy by performing hyper tuning on the parameters selected to build the detector model. The necessity of the system is to truncate the rapid dissemination of the falsified information that pose a threat to social media as a platform. In this project, we strive to utilize social media to classify the news content, particularly Twitter. The aim of the project is to explore and advocate on the selection of determinant statistical features that help detect/classify a news as either ‘human’ or ‘machine’ generated.
 
 ## Model Description
-The implementation involves tasks such as data preprocessing, feature extraction, training classification models etc. The architecture diagram of the implementation is provided below.<br>
+The implementation involves tasks such as data preprocessing, feature extraction, training classification models etc. The architecture diagram of the implementation is provided below.<br><br>
 ![image](images/Picture1.png)
 
 ## Test Datasets
