@@ -7,3 +7,30 @@ The problem statement of this research revolves around extracting statistical me
 
 ## Model Description
 The implementation involves tasks such as data preprocessing, feature extraction, training classification models etc. The architecture diagram of the implementation is provided below.
+![image](images/Picture1.png)
+
+## Test Datasets
+1.	**[TweepFake Dataset](data)**
+The primary dataset we used for the project was the provided TweepFake dataset which is a twitter deep fake dataset which is a collection of human and deep-fake messages. It contains a variety of different columns but the only columns that we were considering in this project were:
+-	Tweet text
+-	Category of the tweet (human/ machine)
+This dataset contained a total of 20926 equally categorized tweets in the training dataset and 2584 tweets in the test dataset.
+
+2.	**[Custom Dataset](customdata)**
+The other dataset that we used was a custom dataset that we created. It was a combination of news articles by humans scraped from various news websites and machine generated news articles which were made using HuggingFace and DeepAI. This dataset was modified for it to only contain two columns:
+-	News text
+-	Category of the news (human/machine)
+This dataset contained a total of 198 equally categorized news articles in the training dataset and 49 news articles in the test dataset.
+
+## Command Line
+### DISCLAIMER
+- The program uses a [glove.txt](https://www.kaggle.com/watts2/glove6b50dtxt) file which is a necessity for the execution of the program.
+
+```
+python classifier.py
+```
+
+## Results
+- For the TweepFake dataset, 78% accuracy was achieved by using the bag of words features into the logistic regression classifier. 
+- For the Custom Dataset, 100% accuracy was achieved by using the n-grams categorization algorithm into the random forest classifier which might be due to overfitting.
+ 
